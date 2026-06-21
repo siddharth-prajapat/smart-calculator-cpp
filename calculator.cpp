@@ -80,7 +80,7 @@ public:
          }
          if(a=='+'){
         fstream file;
-        file.open("Calculate.txt",ios::app);
+        file.open("Calculate.txt",ios::app);/*ios:app= use for open file in apend mode*/
         file<<"\n"<<"Addition is :- "<<n1<<"+"<<n2<<"="<<s;
         file.close();
         }
